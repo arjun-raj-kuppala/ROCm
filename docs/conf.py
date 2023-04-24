@@ -40,6 +40,10 @@ linkcheck_ignore = [
     "http://cs231n.stanford.edu/"
 ]
 
+myst_html_meta = {
+    "http-equiv=refresh content=0;url='https://docs.amd.com'": "redirect"
+}
+
 docs_core = ROCmDocs("ROCm Docs 5.6.0 Alpha")
 docs_core.setup()
 docs_core.disable_main_doc_link()
